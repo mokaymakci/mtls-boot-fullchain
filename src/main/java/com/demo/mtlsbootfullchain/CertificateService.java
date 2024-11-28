@@ -20,9 +20,9 @@ public class CertificateService {
     private static final String SERVER_KEY_PATH = "server-key.pem";
     private static final String CLIENT_CERT_PATH = "client-cert.pem";
     private static final String CLIENT_KEY_PATH = "client-key.pem";
-    private static final String CLIENT_DN = "CN=Client, O=FUPSBank, L=Istanbul, C=Turkey";
-    private static final String CA_DN = "CN=mtlsdev.fupsbank.com, O=FUPSBank, L=Istanbul, C=Turkey";
-    private static final String SERVER_DN = "CN=mtlsdev.fupsbank.com, O=FUPSBank, L=Istanbul, C=Turkey";
+    private static final String CLIENT_DN = "CN=Client, O=xxx, L=Istanbul, C=Turkey";
+    private static final String CA_DN = "CN=mtlsdev.xxx.com, O=xxx, L=Istanbul, C=Turkey";
+    private static final String SERVER_DN = "CN=mtlsdev.xxx.com, O=xxx, L=Istanbul, C=Turkey";
 
     private static final String CA_CERTIFICATE = "-----BEGIN CERTIFICATE-----\n" +
             "MIIDTzCCAjegAwIBAgIGAZLdpCm5MA0GCSqGSIb3DQEBCwUAMFYxHTAbBgNVBAMM\n" +
